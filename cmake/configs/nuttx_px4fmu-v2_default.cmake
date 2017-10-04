@@ -171,8 +171,9 @@ set(config_module_list
 	#examples/math_demo
 	# Tutorial code from
 	# https://px4.io/dev/px4_simple_app
-	#examples/px4_simple_app
-
+	examples/px4_simple_app
+	make px4fmu-v2_default
+	
 	# Tutorial code from
 	# https://px4.io/dev/daemon
 	#examples/px4_daemon_app
